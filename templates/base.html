@@ -42,7 +42,7 @@
               <li><a class="dropdown-item" href="#">{{user.phone}}</a></li>
               <li><a class="dropdown-item" href="#">{{user.email}}</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li class="dropdown-item">
+              <li class="dropdown-item text-center">
                 <form method="post" action="{% url "logout" %}">
                   {% csrf_token %}
                   <button type="submit" class="btn">Sign Out</button>
