@@ -9,7 +9,7 @@
 ## How it was build
 - With the help of [LearnDjango](https://learndjango.com)
 - Styling with [Bootstrap v5](https://getbootstrap.com/)
-- Forms styling with [django-crispy-froms](https://django-crispy-forms.readthedocs.io)
+- Forms styling with [django-crispy-forms](https://django-crispy-forms.readthedocs.io)
 - Custom user created with Django AbstractUser class
 - Forms created with Django UserCreationFrom class
 ----
