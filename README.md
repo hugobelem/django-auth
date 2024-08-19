@@ -1,32 +1,31 @@
-> A Django project exercise.
-> Obejective: full user authentication.
+> A Django Project. Full user authentication.
 
-## 🚀 Features
-
+## Features
 - Django 5.1 & Python 3.12
-- User log in/out, sign up, password reset
+- User log in/out, sign up, password change/reset
+- Custom 400, 403, 404, and 500 error pages
+----
+
+## How it was build
+- With the help of [LearnDjango](https://learndjango.com)
 - Styling with [Bootstrap v5](https://getbootstrap.com/)
-- Custom 404, 500, and 403 error pages
-----
-
-## Table of Contents
-* **[Installation](#installation)**
-  * [Pip](#pip)
-
+- Forms styling with [django-crispy-froms](https://django-crispy-forms.readthedocs.io)
+- Custom user created with Django AbstractUser class
+- Forms created with Django UserCreationFrom class
 ----
 
 
-### Pip
+### Install
 
 ```
-$ python -m venv .dj
+$ python -m venv dj
 
 # macOS
-$ source .dj/bin/activate
+$ source dj/bin/activate
 
-(.dj) $ pip install -r requirements.txt
-(.dj) $ python manage.py migrate
-(.dj) $ python manage.py createsuperuser
-(.dj) $ python manage.py runserver
+(dj) $ pip install -r requirements.txt
+(dj) $ python manage.py migrate
+(dj) $ python manage.py createsuperuser
+(dj) $ python manage.py runserver
 # Load the site at http://127.0.0.1:8000
 ```
