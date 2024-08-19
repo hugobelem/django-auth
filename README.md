@@ -11,7 +11,7 @@
 - Styling with [Bootstrap v5](https://getbootstrap.com/)
 - Forms styling with [django-crispy-forms](https://django-crispy-forms.readthedocs.io)
 - Custom user created with Django AbstractUser class
-- Forms created with Django UserCreationFrom class
+- Forms created with Django [UserCreationFrom](https://docs.djangoproject.com/en/5.0/topics/auth/customizing/#custom-users-and-the-built-in-auth-forms) class
 ----
 
 
