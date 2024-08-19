@@ -19,6 +19,7 @@ class CustomUserAdmin(admin.ModelAdmin):
 
         if not is_superuser:
             form.base_fields['username'].disabled = True
+            form.base_fields['is_superuser'].disabled = True
 
         return form
 
