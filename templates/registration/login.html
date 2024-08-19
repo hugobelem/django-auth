@@ -10,6 +10,9 @@
     Welcome to CUSCUZ
     <small class="text-body-secondary"></small>
   </h3>
+  {% if user.is_authenticated %}
+  <p class="lead">You are alredy loged in</p>
+  {% else %}
   <p class="lead">Log In</p>
 </div>
 
@@ -28,6 +31,7 @@
         </p>
         <button type="submit" class="btn btn-primary">Log In</button>
       </form>
+      {% endif %}
 
     </div>
     <div class="col"></div>
