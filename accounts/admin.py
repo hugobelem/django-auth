@@ -10,6 +10,7 @@ class CustomUserAdmin(admin.ModelAdmin):
     form = CustomUserChangeForm
     model = CustomUser
     list_display = ['first_name', 'username', 'email', 'phone']
+    search_fields = ['first_name__startswith']
     readonly_fields = ['date_joined', 'last_login']
 
     def get_form(self, request, obj, **kwargs) -> Any:
