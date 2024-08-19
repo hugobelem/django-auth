@@ -25,4 +25,3 @@ class CustomUserChangeForm(UserChangeForm):
                   'last_name',
                   'phone',)
 
-
