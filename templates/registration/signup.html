@@ -10,6 +10,9 @@
     Welcome to CUSCUZ
     <small class="text-body-secondary"></small>
   </h3>
+  {% if user.is_authenticated %}
+  <p class="lead">You are alredy loged in</p>
+  {% else %}
   <p class="lead">Create an account</p>
 </div>
 
@@ -23,6 +26,7 @@
         {{ form|crispy }}
         <button type="submit" class="btn btn-primary">Sign Up</button>
       </form>
+      {% endif %}
 
     </div>
     <div class="col"></div>
