@@ -6,13 +6,10 @@ __pycache__/
 # Virtual environment
 .dj
 
-# Database
-*.sqlite3
-*.db
-media
-
-# Logs
+# Django
 *.log
+db.sqlite3
+media
 
 # OS generated files
 .DS_Store
