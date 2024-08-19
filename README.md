@@ -1,12 +1,11 @@
-> A Django project exercise. Objetive: user authentication.
+> A Django project exercise.
+> Obejective: full user authentication.
 
 ## 🚀 Features
 
 - Django 5.1 & Python 3.12
 - User log in/out, sign up, password reset
 - Styling with [Bootstrap v5](https://getbootstrap.com/)
-- Debugging with [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar)
-- DRY forms with [django-crispy-forms](https://github.com/django-crispy-forms/django-crispy-forms)
 - Custom 404, 500, and 403 error pages
 ----
 
