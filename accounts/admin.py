@@ -34,3 +34,12 @@ class CustomUserAdmin(admin.ModelAdmin):
         return ['date_joined', 'last_login']
 
 admin.site.register(CustomUser, CustomUserAdmin)
+
+# list of field names
+# username
+# is_superuser
+# is_active
+# is_staff
+# groups
+# first_nam      
+# user_permissions
