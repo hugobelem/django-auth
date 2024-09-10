@@ -2,6 +2,7 @@ from django.urls import path
 
 from . import views
 
+app_name = 'perfil'
 urlpatterns = [
-    path("signup/", views.SignUpView.as_view(), name="signup"),
+    path('', views.update_user, name='perfil'),
 ]

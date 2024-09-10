@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Local
     'accounts',
+    'perfil',
     # Third-party
     "crispy_forms",
     "crispy_bootstrap5",
